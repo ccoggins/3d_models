@@ -1,7 +1,7 @@
 $fa = 1;
 $fs = 0.4;
 
-pic_width=104.1;
+pic_width=104;
 pic_depth=3.3;
 
 post_h = pic_width - 4;
@@ -23,7 +23,7 @@ difference() {
 
     // screw holes
     translate([-(post_w / 2 - 4), -(post_w / 2 - 4), post_h / 2])
-    cylinder(h = 20, r = 1.3, center = true);
+    cylinder(h = 20, r = 1.4, center = true);
     translate([-(post_w / 2 - 4), -(post_w / 2 - 4), -post_h / 2])
-    cylinder(h = 20, r = 1.3, center = true);
+    cylinder(h = 20, r = 1.4, center = true);
 }
